@@ -17,17 +17,22 @@ An analyst at the fictional **Northbridge Systems Ltd.** receives an endpoint es
 ## Applied business examples and practical exercises
 **NEW:** [BUSINESS_APPLICATIONS — Aplicaciones empresariales y ejercicios](BUSINESS_APPLICATIONS/README.md)
 
-Five evidence-backed fictionalized scenarios using realistic enterprise patterns but **no real company names, IPs or customer information**:
+Ten evidence-backed fictionalized scenarios using realistic enterprise patterns but **no real company names, IPs or customer information**:
 1. Finance and accounts payable
 2. Healthcare administration
 3. Manufacturing office operations
 4. Distribution and logistics
 5. Professional services
+6. Education administration
+7. Energy planning (office IT only)
+8. Hospitality back-office
+9. Retail inventory support
+10. Media operations
 
-Includes **30 practice questions**, anonymized CSV event logs, Kali-compatible offline analysis helper, assessment rubric and analyst report template. These are supplemental training exercises, not separate submitted HTB Sherlocks.
+Includes **60 practice questions**, anonymized CSV event logs, Kali-compatible offline analysis helper, assessment rubric and analyst report template. These are supplemental training exercises, not separate submitted HTB Sherlocks.
 
 ## Main Sherlock investigation
-The primary Sherlock evidence set and evaluator write-up are separate release milestones. This repository currently includes the case design and the five applied exercises; the **main Sherlock evidence bundle has not yet been published or independently solved**. Do not submit to HTB as complete at this stage.
+The primary Sherlock evidence set and evaluator write-up are separate release milestones. This repository currently includes the case design and the ten applied exercises; the **main Sherlock evidence bundle has not yet been published or independently solved**. Do not submit to HTB as complete at this stage.
 
 ## Important
 All names, identities, domains, devices and events are **fabricated for training**. No real IP addresses, live malware binaries, secrets, private Centinell technology or customer information are published. Do not treat narrative claims as proved: cite exact artifacts and timestamps.
