@@ -9,7 +9,7 @@ from datetime import datetime
 BASE = pathlib.Path(__file__).resolve().parents[1]
 COLUMNS = ["record_id", "timestamp_utc", "source", "host", "principal",
            "activity", "artifact", "correlation_id", "observation"]
-IPV4 = re.compile(r"(?<![\\d.])(?:\\d{1,3}\\.){3}\\d{1,3}(?![\\d.])")
+IPV4 = re.compile(r"(?<![0-9.])(?:[0-9]{1,3}\.){3}[0-9]{1,3}(?![0-9.])")
 
 
 def validate(path):
