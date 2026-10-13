@@ -11,3 +11,6 @@
 - Preserve the distinction between evidence and inference in all conclusions.
 
 This case is a fictional cybersecurity defensive-training exercise, not a real intrusion disclosure.
+
+## Deep-Dive source note
+The supplemental `evidence/09_deep_dive/` tables are **synthetic, normalized teaching records**, not native Sysmon/EVTX logs, signature verification, a PCAP, or independent evidence acquisition. The analyst hypotheses are deliberately non-authoritative and may conflict; their inclusion does not prove any malware identity, human actor, data theft, or code execution beyond modeled records.

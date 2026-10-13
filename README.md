@@ -41,6 +41,9 @@ The **main case evidence files are now published** in [evidence/](evidence/READM
 
 Use `python3 tools/verify_case.py` to check the manifest, `python3 tools/triage_case.py --timeline` to analyze events, and `python3 BUSINESS_APPLICATIONS/tools/inspect_events.py --validate-all` to validate sector lab records. All analysis works offline.
 
+## Forensic Deep-Dive (optional, evidence-based)
+[Advanced 12-task investigation](docs/FORENSIC_DEEP_DIVE.md) with five additional synthetic forensic source families (authentication, file provenance, Scheduler, network egress, and analyst hypotheses). These are **not separate graded HTB questions**. A read-only tool `python3 tools/deep_correlate.py --summary` helps compare source records and competing explanations, without automating the solve. [Blank analyst worksheet](templates/DEEP_INVESTIGATION_REPORT.md).
+
 ## Important
 All names, identities, domains, devices and events are **fabricated for training**. No real IP addresses, live malware binaries, secrets, private Centinell technology or customer information are published. Do not treat narrative claims as proved: cite exact artifacts and timestamps.
 

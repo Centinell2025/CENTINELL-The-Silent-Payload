@@ -22,3 +22,6 @@ For CSV use a spreadsheet, `csvkit`, or Python's `csv` module. Never run `Roster
 
 ## Deliverable
 A concise case report covering delivery, execution, behavior, persistence, network observations, indicators, and recommended containment, with an evidence-grounded timeline.
+
+## Deep-Dive investigation (optional)
+Use `python3 tools/deep_correlate.py --summary`, `python3 tools/deep_correlate.py --timeline --limit 25`, and `python3 tools/deep_correlate.py --record PROC-302`. Complete the [12 ungraded questions](FORENSIC_DEEP_DIVE.md) and [blank worksheet](../templates/DEEP_INVESTIGATION_REPORT.md). Notes in `analyst_hypotheses.csv` are intentionally contradictory and must **not** be treated as ground truth.

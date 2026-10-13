@@ -18,3 +18,5 @@ jobs:
         run: python3 tests/test_training_content.py
       - name: Check student ZIP CRC, parity and evidence manifest
         run: python3 tools/build_student_bundle.py --check
+      - name: Validate deep forensic case extension
+        run: python3 tests/test_deep_dive.py
