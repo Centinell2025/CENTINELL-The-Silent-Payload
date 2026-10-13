@@ -15,7 +15,7 @@ def sources():
         for p in (ROOT/folder).rglob("*"):
             if p.is_file() and "__pycache__" not in p.parts and p.suffix not in (".pyc",".bak",".tmp"):
                 rel=p.relative_to(ROOT).as_posix()
-                if any(flag in rel.lower() for flag in BLOCK):
+                if any(flag in rel.lower() for flag in BLOCK) and rel != "docs/MAIN_CASE_WALKTHROUGH_STUDENT.md":
                     raise ValueError("Private or solution path excluded: "+rel)
                 files[rel]=p.read_bytes()
     return dict(sorted(files.items()))

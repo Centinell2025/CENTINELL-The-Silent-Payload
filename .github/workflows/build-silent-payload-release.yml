@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - '.github/workflows/build-silent-payload-release.yml'
+      - 'tools/build_student_bundle.py'
   workflow_dispatch:
 permissions:
   contents: write
