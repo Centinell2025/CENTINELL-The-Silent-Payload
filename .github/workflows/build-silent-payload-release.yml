@@ -4,6 +4,7 @@ on:
     paths:
       - '.github/workflows/build-silent-payload-release.yml'
       - 'tools/build_student_bundle.py'
+      - 'BUSINESS_APPLICATIONS/README.md'
   workflow_dispatch:
 permissions:
   contents: write
