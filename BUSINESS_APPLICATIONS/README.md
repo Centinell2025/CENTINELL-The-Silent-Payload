@@ -14,7 +14,6 @@ Estos diez ejercicios representan escenarios empresariales habituales **sin reve
 | [Planning-Station Utility and an Unexpected DLL](03_manufacturing/CASE_AND_EXERCISE.md) | Manufacturing business operations | DLL-load telemetry interpretation + Office IT vs OT boundary | 50–70 min |
 | [Shipping Label Helper and Data Staging](04_logistics/CASE_AND_EXERCISE.md) | Distribution and logistics | Registry Run-key triage + Local staging investigation | 45–65 min |
 | [Client Report Add-In with Abnormal Child Processes](05_professional_services/CASE_AND_EXERCISE.md) | Professional services / consulting | Process-chain reconstruction + Task-based persistence | 45–60 min |
-
 | [Scholarship Portal Converter and a Hidden Login Script](06_education/CASE_AND_EXERCISE.md) | Education administration | User Execution / Task Scheduler / simulated browser hijack | 50–80 min |
 | [Grid Planning Spreadsheet Add-in and DLL Search Order](07_energy/CASE_AND_EXERCISE.md) | Energy planning office IT | DLL observation / scheduled task / IT-OT scoping | 50–80 min |
 | [Reservation Export Helper and Auto-Start Service](08_hospitality/CASE_AND_EXERCISE.md) | Hospitality back-office | Service persistence / credential-boundary analysis | 50–80 min |

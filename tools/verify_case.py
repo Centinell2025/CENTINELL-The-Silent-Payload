@@ -24,7 +24,8 @@ def check():
         assert hashlib.sha256(f.read_bytes()).hexdigest()==digest, f"Bad digest: {path}"
         hashes[path]=digest
     expected={"evidence/"+p for p in MAIN}|{"evidence/08_static/static_report.txt","evidence/README.md"}
-    assert hashes=={p:hashes[p] for p in hashes} and expected<=set(hashes)
+    actual={"evidence/"+p.relative_to(EV).as_posix() for p in EV.rglob("*") if p.is_file() and p.name!="MANIFEST.sha256"}
+    assert set(hashes)==actual and expected<=set(hashes), "Manifest does not cover all case exhibits"
     all_ids=set();by_source={}
     for source in MAIN:
         rows=read(source); assert rows, source;by_source[source]=rows
