@@ -1,7 +1,7 @@
 "event_id","timestamp_utc","host","principal","activity","path","origin_or_process","correlation_id"
 "ORIGIN-401","2026-09-22T09:06:05Z","NB-WS-044","NORTHBRIDGE\mrivera","browser_download","C:\Users\mrivera\Downloads\Roster_Review.zip","https://portal.review-hr.test/files/Roster_Review.zip","NB-MSG-774"
 "ORIGIN-402","2026-09-22T09:07:01Z","NB-WS-044","NORTHBRIDGE\mrivera","archive_extract","C:\Users\mrivera\Downloads\Roster_Review\RosterViewer.exe","Roster_Review.zip","NB-MSG-774"
-"ORIGIN-403","2026-09-22T09:17:33Z","NB-WS-044","NORTHBRIDGE\mrivera","file_created","C:\ProgramData\RosterSync\nbupdate.exe","PG-306","CASE-RUN-1"
+"ORIGIN-403","2026-09-22T09:10:16Z","NB-WS-044","NORTHBRIDGE\mrivera","file_created","C:\ProgramData\RosterSync\nbupdate.exe","PG-306","CASE-RUN-1"
 "ORIGIN-404","2026-09-22T09:19:42Z","NB-WS-044","NORTHBRIDGE\mrivera","file_read","C:\Training\Quarterly_Roster_DUMMY.csv","PG-308","CASE-RUN-2"
 "ORIGIN-405","2026-09-22T09:19:49Z","NB-WS-044","NORTHBRIDGE\mrivera","file_read","C:\Training\HR_Contact_Training.txt","PG-308","CASE-RUN-2"
 "ORIGIN-406","2026-09-22T09:20:04Z","NB-WS-044","NORTHBRIDGE\mrivera","archive_staged","C:\Users\mrivera\AppData\Local\Temp\roster_bundle.zip","PG-309","CASE-RUN-2"

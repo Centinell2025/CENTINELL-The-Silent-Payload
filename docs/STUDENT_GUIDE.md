@@ -3,7 +3,7 @@ This Sherlock is an **offline malware-analysis case**. You do not need to run su
 
 ## Suggested Kali Linux workflow
 1. Clone the repository or download GitHub's source ZIP.
-2. Inspect `evidence/` and check `evidence/MANIFEST.sha256` against file contents once evidence publication is complete.
+2. Inspect the published `evidence/` and run `python3 tools/verify_case.py` and `sha256sum -c evidence/MANIFEST.sha256` to verify all file digests.
 3. Normalize timestamps to UTC; use event IDs and correlation IDs rather than trusting only filenames.
 4. Follow the email → archive → process → dropped-file → persistence → network → staged-files sequence.
 5. Review the static-inspection text reports; these are inert simulations of examination results, **not malware to execute**.
@@ -13,7 +13,9 @@ This Sherlock is an **offline malware-analysis case**. You do not need to run su
 ```bash
 find evidence -type f -maxdepth 3 -print
 grep -Rni 'RosterViewer\|SyncHealth' evidence/
-python3 -m csv evidence/process_events.csv  # example only; use a CSV-capable viewer/script
+python3 tools/triage_case.py --timeline
+python3 tools/triage_case.py --correlation CASE-RUN-2
+python3 tools/triage_case.py --decode-config
 sha256sum -c evidence/MANIFEST.sha256
 ```
 For CSV use a spreadsheet, `csvkit`, or Python's `csv` module. Never run `RosterViewer.exe` or `nbupdate.exe`; no executable samples are supplied.
