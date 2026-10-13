@@ -1,0 +1,4 @@
+"event_id","timestamp_utc","host","principal","task_path","action","target","trigger","correlation_id","observation"
+"TASK-601","2026-09-22T09:11:05Z","NB-WS-044","NORTHBRIDGE\mrivera","\Northbridge\SyncHealth","registered","C:\ProgramData\RosterSync\nbupdate.exe","every_20_minutes","CASE-RUN-1","new task target outside approved software path"
+"TASK-602","2026-09-22T09:18:15Z","NB-WS-044","NORTHBRIDGE\mrivera","\Northbridge\SyncHealth","triggered","C:\ProgramData\RosterSync\nbupdate.exe","every_20_minutes","CASE-RUN-2","start attempt observed in task scheduler"
+"TASK-603","2026-09-22T09:29:42Z","NB-WS-044","NT AUTHORITY\SYSTEM","\Northbridge\ApprovedHealth","triggered","C:\Program Files\Northbridge\healthcheck.exe","on_update","BENIGN-UPDATE","approved workstation health task"

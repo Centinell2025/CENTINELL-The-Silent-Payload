@@ -1,0 +1,26 @@
+# Inert simulated static triage report
+## NB-IR-026 | RosterViewer / staged helper
+
+**Provenance:** this text is an invented static-inspection *exercise*, NOT an authentic examination of any binary. There is no PE file or runnable code in this repository.
+
+Observed metadata (simulation):
+- report_id: STATIC-931
+- parent_file_name: RosterViewer.exe
+- helper_file_name: nbupdate.exe
+- original sample bytes: NOT AVAILABLE
+- binary hashes: NOT AVAILABLE; do not invent them
+- simulation_time_utc: 2026-09-22T09:17:44Z
+- apparent compile marker: "unknown"; timestamp cannot establish identity
+- scripted child launch: powershell.exe from RosterViewer.exe (see PROC-302)
+- disguised helper name: nbupdate.exe, outside the signed corporate software path
+- potential periodic beaconing: config string indicates HTTP path and timing (not proof of success)
+- scheduled task: \Northbridge\SyncHealth (see TASK-601)
+- network payload inspection: ABSENT
+- memory sample: ABSENT
+- actual malware-family attribution: UNSUPPORTED
+
+## Inert encoded configuration field
+encoding: base64 -> UTF-8 JSON (training-only, contains no script or secret)
+value: eyJjYW1wYWlnbiI6Ik5CLU1PUk5JTkctTEFSSyIsImRvbWFpbiI6InVwZGF0ZXMucm9zdGVyLXZlcmlmeS50ZXN0IiwicGF0aCI6Ii92MS9zeW5jIiwiaW50ZXJ2YWxfc2Vjb25kcyI6MTIwMH0=
+
+Students should decode the value for conceptual triage, cross-check events, and report observed vs asserted capabilities. DO NOT execute anything or contact domains.

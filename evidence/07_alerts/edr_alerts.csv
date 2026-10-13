@@ -1,0 +1,4 @@
+"event_id","timestamp_utc","host","severity","process","signal","correlation_id","analyst_note"
+"ALERT-921","2026-09-22T09:11:15Z","NB-WS-044","medium","RosterViewer.exe","unusual child and scheduled task","CASE-RUN-1","behavior requires triage; no recovered binary"
+"ALERT-922","2026-09-22T09:21:45Z","NB-WS-044","medium","nbupdate.exe","local staging and recurring HTTPS","CASE-RUN-2","do not infer exact payload contents from flow bytes"
+"ALERT-923","2026-09-22T09:31:00Z","NB-WS-044","info","northbridge-health-updater.exe","known signed activity","BENIGN-UPDATE","matches approved CHG-612"

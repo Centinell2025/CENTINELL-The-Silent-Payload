@@ -1,0 +1,3 @@
+"ticket_id","timestamp_utc","approval_status","asset","authorized_software","window","scope"
+"CHG-612","2026-09-22T09:00:00Z","approved","NB-WS-044","northbridge-health-updater.exe","09:20-10:00 UTC","signed endpoint health update; excludes RosterViewer and SyncHealth task"
+"CHG-619","2026-09-22T09:03:00Z","pending","NB-WS-044","RosterViewer.exe","none","no authorization for downloaded roster software"

@@ -1,0 +1,8 @@
+"event_id","timestamp_utc","host","principal","process_guid","parent_guid","image","parent_image","activity","correlation_id"
+"PROC-301","2026-09-22T09:09:31Z","NB-WS-044","NORTHBRIDGE\mrivera","PG-300","PG-001","RosterViewer.exe","explorer.exe","interactive execution from extracted archive","CASE-RUN-1"
+"PROC-302","2026-09-22T09:09:34Z","NB-WS-044","NORTHBRIDGE\mrivera","PG-305","PG-300","powershell.exe","RosterViewer.exe","hidden child scripting; script content not retained","CASE-RUN-1"
+"PROC-303","2026-09-22T09:10:14Z","NB-WS-044","NORTHBRIDGE\mrivera","PG-306","PG-305","write-helper-simulated","powershell.exe","inert event describing nbupdate.exe write; no binary supplied","CASE-RUN-1"
+"PROC-304","2026-09-22T09:18:15Z","NB-WS-044","NORTHBRIDGE\mrivera","PG-308","PG-306","nbupdate.exe","write-helper-simulated","agent launch reported by EDR; binary not collected","CASE-RUN-2"
+"PROC-305","2026-09-22T09:19:55Z","NB-WS-044","NORTHBRIDGE\mrivera","PG-309","PG-308","archiver.exe","nbupdate.exe","staging a dummy archive; content absent","CASE-RUN-2"
+"PROC-306","2026-09-22T09:29:45Z","NB-WS-044","NT AUTHORITY\SYSTEM","PG-500","PG-050","northbridge-health-updater.exe","services.exe","signed approved update from change CHG-612","BENIGN-UPDATE"
+"PROC-307","2026-09-22T09:30:32Z","NB-WS-044","NT AUTHORITY\SYSTEM","PG-501","PG-500","healthcheck.exe","northbridge-health-updater.exe","routine update child process","BENIGN-UPDATE"

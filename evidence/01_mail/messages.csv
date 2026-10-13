@@ -1,0 +1,3 @@
+"event_id","timestamp_utc","sender","recipient","subject","message_id","attachment","dmarc","notes"
+"MAIL-774","2026-09-22T09:02:01Z","roster-admin@review-hr.test","NORTHBRIDGE\mrivera","Quarterly roster corrections / action required","NB-MSG-774","Roster_Review.zip","fail","External review notice; sender not an approved HR system"
+"MAIL-775","2026-09-22T09:05:17Z","helpdesk@northbridge.internal.test","NORTHBRIDGE\mrivera","Approved workstation health update","NB-MSG-775","None","pass","Matches signed endpoint maintenance approval"

@@ -1,0 +1,3 @@
+"event_id","timestamp_utc","host","principal","query","action","correlation_id","observation"
+"DNS-701","2026-09-22T09:18:25Z","NB-WS-044","NORTHBRIDGE\mrivera","updates.roster-verify.test","query","CASE-RUN-2","no numeric IP answer retained"
+"DNS-702","2026-09-22T09:28:32Z","NB-WS-044","NT AUTHORITY\SYSTEM","health.northbridge.internal.test","query","BENIGN-UPDATE","approved update endpoint"

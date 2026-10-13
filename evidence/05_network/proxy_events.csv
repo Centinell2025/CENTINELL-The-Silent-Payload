@@ -1,0 +1,4 @@
+"event_id","timestamp_utc","host","principal","action","url_host","url_path","outbound_bytes","correlation_id","observation"
+"PROXY-801","2026-09-22T09:18:28Z","NB-WS-044","NORTHBRIDGE\mrivera","https_post","updates.roster-verify.test","/v1/sync","1480","CASE-RUN-2","TLS contents unavailable; amount is metadata only"
+"PROXY-802","2026-09-22T09:21:09Z","NB-WS-044","NORTHBRIDGE\mrivera","https_post","updates.roster-verify.test","/v1/sync","2031","CASE-RUN-2","no receiving-system logs; exfil not proven"
+"PROXY-803","2026-09-22T09:29:00Z","NB-WS-044","NT AUTHORITY\SYSTEM","https_post","health.northbridge.internal.test","/api/health","256","BENIGN-UPDATE","approved health heartbeat; benign comparator"
