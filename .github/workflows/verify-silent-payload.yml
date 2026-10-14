@@ -16,7 +16,15 @@ jobs:
         run: python3 tools/verify_case.py
       - name: Check all student training exercises and triage CLI
         run: python3 tests/test_training_content.py
+      - name: Rebuild deterministic student ZIP from current evidence
+        run: python3 tools/build_student_bundle.py --write
       - name: Check student ZIP CRC, parity and evidence manifest
         run: python3 tools/build_student_bundle.py --check
+      - name: Upload verified student ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: silent-payload-verified-student-zip
+          path: downloads/CENTINELL-The-Silent-Payload-STUDENT.zip
+          if-no-files-found: error
       - name: Validate deep forensic case extension
         run: python3 tests/test_deep_dive.py
